@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="bg-silver">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/incrementor" component={Incrementor} />
